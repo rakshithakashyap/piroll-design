@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+html,body{
+    position: relative;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px!important;
+    line-height: 1.4;
+    color: rgb(53, 50, 50)!important;
+    background-color: #fff;
+}
+.wrapper{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.header{
+    background:url(images/pic1.jfif) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:20px 0 50px;
+}
+.mm-text{
+    margin: 300px 0 300px;
+}
+/* ------------------nav---------------------- */
+.navbar{
+    background:url(images/pic1.jfif) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-link{
+    font-size: 14px;
+    color: #000000!important;
+}
+.nav-link:hover {
+    color: rgb(86 206 191)!important;
+    transition: .5s ease;
+}
+.btn:hover{
+    background-color: rgb(46, 117, 108)!important;
+    transition: .5s ease;
+}
+.mm-head{
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.a-para{
+    width: 60%;
+}
+ #skill{
+    background:linear-gradient(to right , #ffffff1c ,#1d212405 ),url(images/img5.jpg) center/cover no-repeat fixed;
+    padding: 100px 0;
+}
+#counts{
+    padding: 90px 0;
+    background-color: rgb(86 206 191);
+}
+.fa{
+    color: #fff;
+    font-size: 50px;
+}
+.c-text {
+    font-size: 15px!important;
+}
+
+
+/* --------------------gallery---------------- */
+#gallery .col-lg-3{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+#gallery {
+    background-image: linear-gradient(#16191c,#212529eb);
+}
+
+.g-card{
+    position: relative;
+    columns: #000000;
+    overflow: hidden;
+}
+#gallery img{
+    width: 100%;
+    min-height: 100%;
+    transition: transform 2s;
+}
+.img-text{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.g-card:hover img{
+    opacity: 0.2;
+    background-color: rgba(0, 0, 0, 1);
+    transform: scale(1.3);
+}
+.g-card:hover .img-text{
+    opacity: 1;
+    transition: .5s ease;
+}
+iframe{
+    width: 90%;
+    height: 400px;
+}
+
+.s-text{
+    font-size: 14px;
+    padding: 0 20px;
+}
+.s-head{
+    font-size: 17px;
+    font-weight: 700;
+}
+.s-item .fa{
+    font-size: 40px;
+}
+
+#test ,#contact , #footer{
+    padding: 50px 0;
+}
+.t-para{
+    font-size: 25px;
+    padding: 2% 18%;
+} 
+.carousel-indicators li{
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    margin-left: 3%!important;
+}
+
+.c-form{
+    margin: 0 15%;
+}
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+@media (max-width:770px){
+.mm-head{
+    font-size: 40px;
+}
+.a-para {
+    width: 80%;
+}
+.main-modal{
+    justify-content: center;
+}
+.t-para{
+    font-size: 23px;
+    padding: 2% 10%;
+}
+}
+@media (max-width:990px){
+    .mm-text{
+        text-align: center;
+    }
+}
+
+@media (max-width:576px){
+    .g-card {
+        width: 50%!important;
+    }
+    .t-para{
+        font-size: 20px;
+        padding: 2% 5%;
+    }
+    .col-xs-4{
+        width: 33.3%!important;
+    }
+    .prof-head{
+        margin-left: 5%;
+    }
+}
+@media (max-width:526px){
+    .mm-head{
+        font-size: 35px;
+    }
+    iframe{
+        height: 300px;
+    }
+}
+@media (max-width:380px){
+    body{
+        font-size:15px!important;
+    }
+    button.btn{
+        padding: 10px 20px!important;
+    }
+    .g-card{
+        width: 100%!important;
+    }
+    .gr-2{
+        display: none!important;
+    }
+    iframe{
+        height: 200px;
+    }
+    .col-xs-4{
+        font-size: 13px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
